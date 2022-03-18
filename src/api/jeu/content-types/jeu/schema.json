@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jeux",
+  "info": {
+    "singularName": "jeu",
+    "pluralName": "jeux",
+    "displayName": "Jeux"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
